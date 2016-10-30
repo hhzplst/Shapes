@@ -1,5 +1,3 @@
-using System;
-
 namespace Shape {
   public abstract class Shape {
     private int shapeId;
