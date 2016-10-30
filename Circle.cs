@@ -16,7 +16,7 @@ namespace Shape {
     }
 
     public override string ToString() {
-      return $"Circle ID : {GetId()}, Circle locates at {Center} with radius {Radius}";
+      return $"Circle ID : {GetId()}; Circle locates at {Center} with radius {Radius}; Area: {GetArea():f}";
     }
   }
 }
