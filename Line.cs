@@ -17,7 +17,7 @@ namespace Shape {
     }
 
     public override string ToString() {
-      return $"Line ID : {GetId()}, Line starts at {From} and ends at {To}";
+      return $"Line ID : {GetId()}; Line starts at {From} and ends at {To}; Length: {GetLength():f} ";
     }
   }
 }
